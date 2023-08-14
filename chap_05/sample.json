@@ -1,0 +1,6 @@
+{
+    "name": "sue", //Field to store name value
+    "age": 25,       // Field to store age
+    "status": "A",
+    "groups":["news", "sports"]
+}
