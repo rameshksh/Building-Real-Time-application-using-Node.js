@@ -9,3 +9,5 @@ if(res < 0) {
 } else {
    console.log(buf1 +" greater than " + buf2);
 }
+
+buf.compare(otherBuffer);

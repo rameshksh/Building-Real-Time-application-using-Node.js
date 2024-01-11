@@ -47,12 +47,6 @@ app.get('/customers/:customerId/orders/:orderId', (req, res) => {
 }
 */
 
-Route path: /order/: orderId(\d +)
-Request URL: http://localhost:3000/order/567
-req.params: {
-    "orderId": "567"
-}
-
 
 app.get('/user/profile', (req, res) => {
     res.send('user profile')

@@ -6,13 +6,11 @@ app.use((req, res, next) => {
   next()
 })
 
-
 app.use('/employee/:id', (req, res, next) => {
     console.log('Request What http method Type used:', req.method);
     
     res.send("Employee with id - ",req.params.id);
 })
-
 
 app.use('/employee/:id?isActive=true', (req, res, next) => {
     console.log('Request URL:', req.params.id);
